@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Navbar } from "../global";
+import { MobileNavbar, Navbar } from "../global";
 
 type PageProps = {
   currentPage: string;
@@ -32,8 +32,11 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <meta name="description" content={desc} />
       </Head>
       <main className="flex-1 w-full p-5 text-center">
-        <div className="hidden sm:block">
+        <div className="hidden sm:block z-100">
           <Navbar currentPage="Home" />
+        </div>
+        <div className="block -m-5 sm:hidden z-100">
+          <MobileNavbar />
         </div>
         {children}
       </main>
