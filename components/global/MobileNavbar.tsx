@@ -75,7 +75,7 @@ export function MobileNavbar() {
                 style={{ transitionDelay: `${150 + index * 25}ms` }}
               >
                 <Link href={item.path}>
-                  <a className="flex w-auto pb-4">{item.title}</a>
+                  <span className="flex w-auto pb-4">{item.title}</span>
                 </Link>
               </li>
             );
