@@ -67,7 +67,7 @@ export function Footer() {
         </div>
       </div>
       <div className="w-full max-w-4xl pt-8 m-auto mt-8 text-center border-t sm:mt-4 sm:pt-4 text-fun-gray border-fun-pink-dark">
-        <p className="flex flex-col items-center justify-center ">
+        <div className="flex flex-col items-center justify-center ">
           <div className="inline-flex items-center text-xs font-bold tracking-widest uppercase">
             Made with{" "}
             <div className="inline-flex items-center ml-3 -mt-1 space-x-2">
@@ -108,7 +108,7 @@ export function Footer() {
             </a>
             . All rights reserved.
           </div>
-        </p>
+        </div>
       </div>
     </footer>
   );
