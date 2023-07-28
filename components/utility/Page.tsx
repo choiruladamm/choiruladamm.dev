@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { MobileNavbar, Navbar } from "../global";
+import { Footer, MobileNavbar, Navbar } from "../global";
 
 type PageProps = {
   currentPage: string;
@@ -40,6 +40,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         </div>
         {children}
       </main>
+      <Footer />
     </div>
   );
 }
