@@ -1,5 +1,5 @@
 import Page from "@/components/utility/Page";
-import { Hero, Projects, Skills } from "@/components/home";
+import { CTA, Hero, Projects, Skills } from "@/components/home";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
         <Projects />
         <Skills />
       </div>
+      <CTA />
     </Page>
   );
 }
