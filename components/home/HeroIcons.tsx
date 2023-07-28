@@ -26,7 +26,7 @@ export default function HeroIcons() {
         src="/static/doodles/hero/js.svg"
       />
       <img
-        className="sqD bottom-[-320px] sm:bottom-[-250px] right-[65%] sm:right-[35%]"
+        className="sqD bottom-[-320px] sm:bottom-[-320px] right-[65%] sm:right-[35%]"
         style={{ animationDelay: "0.6s" }}
         src="/static/doodles/hero/dino.svg"
       />
