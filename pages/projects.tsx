@@ -1,4 +1,4 @@
-import { Heading } from "@/components/projects";
+import { Heading, Projects } from "@/components/projects";
 import Page from "@/components/utility/Page";
 
 function projects() {
@@ -8,6 +8,7 @@ function projects() {
       meta={{ title: "Projects", desc: "..." }}
     >
       <Heading />
+      <Projects />
     </Page>
   );
 }

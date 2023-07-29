@@ -1,14 +1,5 @@
 import { kebabCase } from "@/utils/utils";
-
-type Projects = {
-  id: number;
-  title: string;
-  desc: string;
-  img: string;
-  link?: string;
-  github?: string;
-  tags: string[];
-};
+import { Projects } from "types/project";
 
 const projects: Projects[] = [
   {
