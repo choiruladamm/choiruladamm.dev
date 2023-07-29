@@ -1,5 +1,5 @@
+import { Heading } from "@/components/projects";
 import Page from "@/components/utility/Page";
-import React from "react";
 
 function projects() {
   return (
@@ -7,7 +7,7 @@ function projects() {
       currentPage="Projects"
       meta={{ title: "Projects", desc: "..." }}
     >
-      
+      <Heading />
     </Page>
   );
 }
