@@ -1,4 +1,4 @@
-import { Heading, Projects } from "@/components/projects";
+import { Heading, More, Projects } from "@/components/projects";
 import Page from "@/components/utility/Page";
 
 function projects() {
@@ -9,6 +9,7 @@ function projects() {
     >
       <Heading />
       <Projects />
+      <More />
     </Page>
   );
 }
