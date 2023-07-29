@@ -18,7 +18,7 @@ export function Navbar({ currentPage }) {
               src="/vercel.svg"
               className="mr-2 transition-transform duration-500 transform bg-white hover:rotate-360 hover:scale-75"
             /> */}
-            {"Choirul Adam".split("").map((letter, index) => {
+            {"AdamCH".split("").map((letter, index) => {
               return (
                 <span
                   key={index}
