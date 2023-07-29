@@ -1,7 +1,15 @@
+import Page from "@/components/utility/Page";
 import React from "react";
 
 function projects() {
-  return <div className="grid h-screen text-white place-items-center">projects list comingsoon boyyyy</div>;
+  return (
+    <Page
+      currentPage="Projects"
+      meta={{ title: "Projects", desc: "..." }}
+    >
+      
+    </Page>
+  );
 }
 
 export default projects;
