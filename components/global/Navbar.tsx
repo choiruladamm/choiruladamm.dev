@@ -18,7 +18,7 @@ export function Navbar({ currentPage }) {
               src="/vercel.svg"
               className="mr-2 transition-transform duration-500 transform bg-white hover:rotate-360 hover:scale-75"
             /> */}
-            {"AdamCH".split("").map((letter, index) => {
+            {"Choirul Adam".split("").map((letter, index) => {
               return (
                 <span
                   key={index}
@@ -32,19 +32,19 @@ export function Navbar({ currentPage }) {
         </Link>
       </li>
       <ul className="flex items-center space-x-8">
-        {routes.map((item, index) => {
+        {routes.map((route, index) => {
           return (
             <li
               key={index}
               className={`
               list-none text-white ${
-                currentPage === item.title
+                currentPage === route.title
                   ? "opacity-100"
                   : "opacity-40 hover:opacity-100 transition-opacity"
               }
             `}
             >
-              <Link href={item.path}>{item.title}</Link>
+              <Link href={route.path}>{route.title}</Link>
             </li>
           );
         })}
