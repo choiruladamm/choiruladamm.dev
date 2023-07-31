@@ -9,7 +9,7 @@ const projects: Projects[] = [
     img: "/static/projects/buildfaster.png",
     link: "https://hoobank-axl.vercel.app/",
     github: "https://github.com/choiruladamm/hoobank",
-    tags: ["React", "NextJS", "TailwindCSS", "Javascript"],
+    tags: ["React", "NextJS", "TailwindCSS", "Javascript", "Typescript"],
   },
   {
     id: 1,

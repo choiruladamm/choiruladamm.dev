@@ -18,7 +18,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }));
   return {
     paths: allTagsPaths,
-    fallback: false,
+    fallback: true,
   };
 };
 
@@ -41,27 +41,27 @@ export const getStaticProps: GetStaticProps = async ({
   };
 };
 
-function TagPage({ filteredProjects, tag }) {
+function PostPage({ filteredProjects, tag }) {
   const capsTag = allTags[allKebabTags.indexOf(tag)];
-
   return (
     <Page
       currentPage="Projects"
       meta={{
         title: `${capsTag} Projects`,
-        desc: `A showcase for all of my ${capsTag} projects`,
+        desc: `A showcase for all of my ${capsTag} projects.`,
       }}
     >
       <Heading tag={capsTag} />
       <Projects overwriteProjects={filteredProjects} />
-      
+
       <Link href="/projects">
         <div className="w-full max-w-sm px-8 py-3 mx-auto mt-8 text-center transition-colors border rounded-full cursor-pointer md:max-w-2xl border-fun-pink whitespace-nowrap text-fun-pink bg-fun-pink-darkerer hover:bg-fun-pink hover:text-white">
           View All
         </div>
       </Link>
+      {/* <More /> */}
     </Page>
   );
 }
 
-export default TagPage;
+export default PostPage;
