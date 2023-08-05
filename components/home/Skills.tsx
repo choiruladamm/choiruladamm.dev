@@ -5,7 +5,7 @@ import { skills } from "@/data/content/skills";
 
 export function Skills() {
   return (
-    <div className="relative flex flex-col justify-between md:flex-row">
+    <div className="relative flex flex-col justify-between mt-20 md:flex-row">
       <h2 className="relative w-full mb-10 mr-0 text-3xl font-bold text-center md:text-left md:max-w-lg md:mr-10 md:mb-0 md:w-max">
         I got the experience
         <br />
