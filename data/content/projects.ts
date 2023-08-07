@@ -65,15 +65,6 @@ const projects: Projects[] = [
     github: "https://github.com/choiruladamm/hoobank",
     tags: ["React", "NextJS", "TailwindCSS", "Javascript"],
   },
-  {
-    id: 7,
-    title: "Hoobank UI",
-    desc: "All the resources you will need to get a boost into economics.",
-    img: "/static/projects/buildfaster.png",
-    link: "https://hoobank-axl.vercel.app/",
-    github: "https://github.com/choiruladamm/hoobank",
-    tags: ["React", "NextJS", "TailwindCSS", "Javascript"],
-  },
 ];
 
 export const allTags = [];
