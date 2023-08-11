@@ -27,6 +27,12 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
     >
       <Head>
         <title>{pageTitle}</title>
+        <link
+          rel="icon"
+          type="image/jpg"
+          sizes="32x32"
+          href="/static/logo-web.jpg"
+        />
 
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
