@@ -16,7 +16,9 @@ export function ProjectCard({ project }) {
         target="_blank"
         className="relative w-full p-2 transition border rounded-xl border-fun-gray hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard"
       >
-        <img
+        <Image
+          width={400}
+          height={266}
           src={project.img}
           alt={project.title}
           className="w-full rounded-md"
