@@ -25,6 +25,7 @@ const projects: Projects[] = [
     title: "Game Store",
     desc: "React shopping chart using typescript & rawg game api.",
     img: "/static/projects/game-store.jpg",
+    link: "https://game-shopping-cart.vercel.app/",
     tags: ["React", "Sass", "Typescript", "API"],
   },
 ];
