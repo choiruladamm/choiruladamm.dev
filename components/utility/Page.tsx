@@ -14,8 +14,8 @@ type PageProps = {
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Choirul Adam - Web Developer"
-      : `${currentPage} - AdamCH`
+      ? "Choirul Adam - Front End Developer"
+      : `${currentPage} - Choirul Adam`
   }`;
 
   return (
