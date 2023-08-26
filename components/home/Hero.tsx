@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { Button } from '../global';
 import HeroIcons from './HeroIcons';
 import { Link as ScrollLink } from "react-scroll";
 
@@ -24,10 +25,10 @@ export function Hero() {
           offset={-30}
           smooth={true}
           duration={500}
-        >
-          <div className="px-10 py-4 text-xl font-bold transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-fun-white border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink">
+        > 
+          <Button className='px-10 py-4 text-xl'>
             Tell me more
-          </div>
+          </Button>
         </ScrollLink>
       </div>
     </>
