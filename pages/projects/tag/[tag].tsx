@@ -1,9 +1,11 @@
+import { Button } from "@/components/global";
 import { Heading, Projects } from "@/components/projects";
 import Page from "@/components/utility/Page";
 import projects, { allKebabTags, allTags } from "@/data/content/projects";
 import { kebabArray, kebabCase } from "@/utils/utils";
 import { GetStaticPaths, GetStaticProps } from "next";
 import Link from "next/link";
+import { More } from "@/components/projects";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const allTags = [];
@@ -55,11 +57,11 @@ function PostPage({ filteredProjects, tag }) {
       <Projects overwriteProjects={filteredProjects} />
 
       <Link href="/projects">
-        <div className="w-full max-w-sm px-8 py-3 mx-auto mt-8 text-center transition-colors border rounded-full cursor-pointer md:max-w-2xl border-fun-pink whitespace-nowrap text-fun-pink bg-fun-pink-darkerer hover:bg-fun-pink hover:text-white">
+        <Button className="w-full max-w-sm md:max-w-2xl">
           View All
-        </div>
+        </Button>
       </Link>
-      {/* <More /> */}
+      <More />
     </Page>
   );
 }
