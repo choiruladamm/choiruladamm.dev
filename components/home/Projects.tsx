@@ -2,21 +2,10 @@ import projects from "@/data/content/projects";
 import { Button, SectionTitle } from "../global";
 import { ProjectCard } from "../projects";
 import Link from "next/link";
-import { twMerge } from "tailwind-merge";
 
-type projectProps = {
-  className?: string
-  
-}
-
-export function Projects({className}: projectProps) {
+export function Projects() {
   return (
-    <div
-      className={twMerge(
-        "relative flex flex-col justify-between pt-8 text-left",
-        className
-      )}
-    >
+    <div className="relative flex flex-col justify-between pt-8 text-left">
       <div id="learnmore">
         <SectionTitle title="Here are a few of my list projects." />
       </div>
