@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { randomNumberText } from "@/utils/utils";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/global";
 
 function Page404() {
   const [error, setError] = useState("0000");
@@ -12,16 +13,18 @@ function Page404() {
   return (
     <>
       {error !== "0000" && (
-        <div className="min-h-screen w-full flex items-center justify-center flex-col animate-fadeIn">
-          <h1 className="text-7xl text-white font-monospace font-bold opacity-100">{`{ error: ${error} }`}</h1>
-          <p className="text-fun-gray text-xl mt-8 flex items-center">
-            Page not found!&nbsp;&nbsp;
+        <div className="flex flex-col items-center justify-center w-full min-h-screen animate-fadeIn">
+          <h1 className="text-3xl text-white opacity-100 font- bold md:text-7xl font-monospace">{`{ error: ${error} }`}</h1>
+          <div className="flex items-center justify-center mt-5">
+            <p className="text-xl just text-fun-gray">
+              Page not found!&nbsp;&nbsp;
+            </p>
             <Link href="/">
-              <span className="w-full sm:w-auto flex-shrink border border-fun-pink-light text-base px-4 py-1 rounded-xl text-fun-pink-light bg-fun-pink-darkerer hover:bg-fun-pink hover:text-white transition-colors cursor-pointer">
+              <Button className="px-4 py-1 mt-0 text-base border">
                 Return Home
-              </span>
+              </Button>
             </Link>
-          </p>
+          </div>
         </div>
       )}
     </>
