@@ -90,7 +90,7 @@ export function Footer() {
             </Link>
             {` Hosted on  `}
             <Link
-              href="https://vercel.com/dashboard"
+              href="https://vercel.com/"
               className="hover:underline text-fun-pink"
             >
               Vercel.
