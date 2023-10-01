@@ -13,12 +13,12 @@ const projects: Projects[] = [
   },
   {
     id: 1,
-    title: "Todo List",
-    desc: "Simple todo-list create using typescript and react hot toast.",
-    img: "/static/projects/todo-list.jpg",
-    link: "https://todo-axel.vercel.app/",
-    github: "https://github.com/choiruladamm/typescript-todos",
-    tags: ["React", "TailwindCSS", "Typescript"],
+    title: "Auth",
+    desc: "Login Register using NextAuth Prisma PostgreSQL (Supabase).",
+    img: "/static/projects/auth.png",
+    link: "https://next-auth-chrl.vercel.app//",
+    github: "https://github.com/choiruladamm/next-auth-app",
+    tags: ["NextJS", "TailwindCSS", "Typescript"],
   },
   {
     id: 2,
@@ -27,6 +27,15 @@ const projects: Projects[] = [
     img: "/static/projects/game-store.jpg",
     link: "https://game-shopping-cart.vercel.app/",
     tags: ["React", "Sass", "Typescript", "API"],
+  },
+  {
+    id: 3,
+    title: "Todo List",
+    desc: "Simple todo-list create using typescript and react hot toast.",
+    img: "/static/projects/todo-list.jpg",
+    link: "https://todo-axel.vercel.app/",
+    github: "https://github.com/choiruladamm/typescript-todos",
+    tags: ["React", "TailwindCSS", "Typescript"],
   },
 ];
 
