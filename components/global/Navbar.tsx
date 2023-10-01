@@ -11,23 +11,14 @@ export function Navbar({ currentPage }) {
       <li className="text-lg font-bold list-none cursor-pointer">
         <Link href="/">
           <span className="flex items-center text-xl font-black">
-            {/* <Image
+            <Image
               alt="logos"
-              height={60}
-              width={60}
-              src="/vercel.svg"
-              className="mr-2 transition-transform duration-500 transform bg-white hover:rotate-360 hover:scale-75"
-            /> */}
-            {"AdamCH".split("").map((letter, index) => {
-              return (
-                <span
-                  key={index}
-                  className="transition-all duration-500 hover:text-fun-pink hover:-mt-2 hover:duration-100 click:goodbyeLetterAnim"
-                >
-                  {letter}
-                </span>
-              );
-            })}
+              height={40}
+              width={40}
+              src="/static/logo-rounded.png"
+              className="mr-2"
+            />
+            chrl.dam
           </span>
         </Link>
       </li>

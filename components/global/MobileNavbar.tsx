@@ -38,20 +38,19 @@ export function MobileNavbar() {
         } p-5`}
         style={{ zIndex: 101 }}
       >
-        <li className="text-lg font-bold list-none">
-          <Link href="/">
-            {/* <Image
+        <Link href="/">
+          <div className="flex items-center font-bold">
+            <Image
               alt="logos"
-              height={60}
-              width={60}
-              src="/vercel.svg"
-              className="mr-2 transition-transform duration-500 transform bg-white hover:rotate-360 hover:scale-75"
-            /> */}
-            <span>
-              AdamCH
-            </span>
-          </Link>
-        </li>
+              height={35}
+              width={35}
+              src="/static/logo-rounded.png"
+              className="mr-2"
+            />
+            chrl.dam
+          </div>
+        </Link>
+
         <button
           className="visible burger md:hidden"
           aria-label="Toggle menu"

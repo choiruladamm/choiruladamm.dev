@@ -64,12 +64,12 @@ export const footer: Footer = {
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
-        {
-          name: "Dribbble",
-          link: "https://dribbble.com/Axelldm",
-          icon: "/static/icons/dribbble-f.svg",
-          leavesWebsite: true,
-        },
+        // {
+        //   name: "Dribbble",
+        //   link: "https://dribbble.com/Axelldm",
+        //   icon: "/static/icons/dribbble-f.svg",
+        //   leavesWebsite: true,
+        // },
         {
           name: "Gmail",
           link: "mailto:choiruladamm@gmail.com",

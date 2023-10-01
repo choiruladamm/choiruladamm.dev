@@ -27,7 +27,12 @@ export function Footer() {
                         >
                           {item.icon && (
                             <span className="pr-2 -mb-1">
-                              <Image src={item.icon} width={20} height={20} alt=""/>
+                              <Image
+                                src={item.icon}
+                                width={20}
+                                height={20}
+                                alt=""
+                              />
                             </span>
                           )}
                           {item.name}
@@ -68,46 +73,30 @@ export function Footer() {
       </div>
       <div className="w-full max-w-4xl pt-8 m-auto mt-8 text-center border-t sm:mt-4 sm:pt-4 text-fun-gray border-fun-pink-dark">
         <div className="flex flex-col items-center justify-center ">
-          <div className="inline-flex items-center text-xs font-bold tracking-widest uppercase">
-            Made with{" "}
-            <div className="inline-flex items-center ml-3 -mt-1 space-x-2">
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  width="26"
-                  title="React"
-                />
-                <span className="sr-only">React</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-                  width="40"
-                  className="invert"
-                  title="NextJS"
-                />
-                <span className="sr-only">NextJS</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  width="26"
-                  title="TailwindCSS"
-                />
-                <span className="sr-only">TailwindCSS</span>
-              </span>
-            </div>
-          </div>
-          <div className="mt-2 text-xs ">
-            Made by{" "}
-            <a
-              href="mailto:contact@braydentw.io"
-              className="font-medium text-fun-gray-light"
+          <div className="text-xs md:text-sm">
+            Made using{" "}
+            <Link
+              href="https://nextjs.org/"
+              className="text-fun-pink hover:underline"
             >
-              Choirul Adamm
-            </a>
-            . All rights reserved.
+              NextJS
+            </Link>
+            {` & `}
+            <Link
+              href="https://tailwindcss.com/"
+              className=" text-fun-pink hover:underline"
+            >
+              TailwindCSS.
+            </Link>
+            {` Hosted on  `}
+            <Link
+              href="https://vercel.com/dashboard"
+              className="hover:underline text-fun-pink"
+            >
+              Vercel.
+            </Link>
           </div>
+          <div className="mt-1 text-xs md:text-sm">© Choirul Adam. 2023</div>
         </div>
       </div>
     </footer>

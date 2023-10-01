@@ -57,9 +57,7 @@ function PostPage({ filteredProjects, tag }) {
       <Projects overwriteProjects={filteredProjects} />
 
       <Link href="/projects">
-        <Button className="w-full max-w-sm md:max-w-2xl">
-          View All
-        </Button>
+        <Button className="w-full max-w-sm mt-16 md:max-w-2xl">View All</Button>
       </Link>
       <More />
     </Page>

@@ -13,7 +13,7 @@ const projects: Projects[] = [
   },
   {
     id: 1,
-    title: "Auth",
+    title: "Auth JWT",
     desc: "Login Register using NextAuth Prisma PostgreSQL (Supabase).",
     img: "/static/projects/auth.png",
     link: "https://next-auth-chrl.vercel.app//",
