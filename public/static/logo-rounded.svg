@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50mm" height="50mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 81.47 81.47"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="670" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="800">
+	<font-face 
+		font-family="Raleway ExtraBold">
+		<font-face-src>
+			<font-face-name name="Raleway ExtraBold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="." horiz-adv-x="238" d="M53.9994 0l0 163 131 0 0 -163 -131 0z"/>
+   <glyph unicode="a" horiz-adv-x="585" d="M21.9993 154.501c0,34.1674 9.66785,64.1667 29.0005,89.665 19.3326,25.6679 45.9994,45.8329 80.0002,60.6676 34.0009,14.8347 72.9991,22.1658 117.001,22.1658 21.3334,0 42.3338,-1.83122 62.9983,-5.49982 20.6675,-3.66552 38.6683,-8.8324 54.0025,-15.5006l0 23.0012c0,27.6656 -8.66901,48.999 -26.0009,63.8337 -17.3349,14.8316 -43.6687,22.1658 -79.0014,22.1658 -29.3334,0 -56.8325,-5.0004 -82.5004,-14.9981 -25.6648,-10.0008 -52.831,-24.3361 -81.4985,-42.9997l-48.0001 102c34.6668,22.6652 70.8318,39.6641 108.501,50.9998 37.6664,11.3326 77.5,16.9989 119.498,16.9989 78.6685,0 139.835,-18.5002 183.501,-55.3343 43.6656,-36.9974 65.4985,-90.3309 65.4985,-160.333l0 -134.166c0,-15.6671 2.5002,-26.6667 7.5006,-32.8325 5.0004,-6.3322 13.8328,-10.0008 26.5003,-11.3326l0 -133.001c-13.3334,-2.66667 -25.8344,-4.66745 -37.4999,-5.99925 -11.6655,-1.33488 -21.8328,-2.00078 -30.4987,-2.00078 -30.0024,0 -52.8341,5.99925 -68.5012,18.0008 -15.6671,11.9985 -25.5014,28.3315 -29.4999,48.999l-2.99962 23.0012c-23.3342,-30.0024 -51.1662,-52.8341 -83.4993,-68.5012 -32.333,-15.6671 -66.1674,-23.5007 -101.5,-23.5007 -34.6668,0 -65.8345,7.16765 -93.5001,21.6663 -27.6687,14.5018 -49.5015,34.1674 -65.5016,59.1663 -16,25.002 -24.0001,52.8341 -24.0001,83.6689zm318 -18.6667c7.33413,5.83277 13.3334,12.165 18.0008,19.3326 4.66745,7.00118 7.00118,13.6663 7.00118,20.1681l0 45.3335c-13.3334,5.16379 -28.1681,9.16535 -44.5011,11.9985 -16.333,2.83315 -31.5007,4.3345 -45.4999,4.3345 -29.3334,0 -53.6664,-6.33528 -72.9991,-18.8332 -19.3357,-12.501 -29.0005,-29.0005 -29.0005,-49.5015 0,-11.6655 3.33257,-22.1658 9.99772,-31.8336 6.66823,-9.66477 15.8336,-17.3318 27.5022,-23.1646 11.6655,-5.83586 25.4983,-8.66901 41.4984,-8.66901 16,0 32.0001,2.83315 48.0001,8.66901 16,5.83277 29.3334,13.1638 40.0001,22.1658z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Raleway ExtraBold";font-variant:normal;font-style:normal;font-weight:800;src:url("#FontID0") format(svg)}
+    .fil0 {fill:black}
+    .fil1 {fill:#00C7FF}
+    .fil2 {fill:white}
+    .fnt0 {font-weight:800;font-size:52.85px;font-family:'Raleway ExtraBold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="-0" y="-0" width="81.47" height="81.47" rx="40.74" ry="40.29"/>
+  <g id="_2211501476064">
+   <text x="20.62" y="55.71"  class="fil1 fnt0">a.</text>
+   <text x="18.93" y="53.08"  class="fil2 fnt0">a.</text>
+  </g>
+ </g>
+</svg>

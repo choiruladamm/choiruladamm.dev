@@ -44,7 +44,7 @@ export function MobileNavbar() {
               alt="logos"
               height={35}
               width={35}
-              src="/static/logo-rounded.png"
+              src="/static/logo-rounded.svg"
               className="mr-2"
             />
             chrl.dam

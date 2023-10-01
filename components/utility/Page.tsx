@@ -31,7 +31,7 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
           rel="icon"
           type="image/jpg"
           sizes="32x32"
-          href="/static/logo-web.jpg"
+          href="/static/logo-square-rounded.svg"
         />
 
         <meta name="title" content={pageTitle} />

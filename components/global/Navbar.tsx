@@ -15,7 +15,7 @@ export function Navbar({ currentPage }) {
               alt="logos"
               height={40}
               width={40}
-              src="/static/logo-rounded.png"
+              src="/static/logo-rounded.svg"
               className="mr-2"
             />
             chrl.dam
