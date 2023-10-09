@@ -16,7 +16,7 @@ export function CTA() {
         <h2 className="mb-10 text-4xl font-bold md:text-5xl">
           Interested in Working Together?
         </h2>
-        <Link href="mailto:choiruladamm@gmail.com">
+        <Link href="mailto:choiruladamm@gmail.com" target="_blank">
           <Button className="w-[11rem]">Get in Touch</Button>
         </Link>
       </div>

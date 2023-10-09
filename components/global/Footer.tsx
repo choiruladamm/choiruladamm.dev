@@ -77,6 +77,7 @@ export function Footer() {
             Made using{" "}
             <Link
               href="https://nextjs.org/"
+              target="_blank"
               className="text-fun-pink hover:underline"
             >
               NextJS
@@ -84,6 +85,7 @@ export function Footer() {
             {` & `}
             <Link
               href="https://tailwindcss.com/"
+              target="_blank"
               className=" text-fun-pink hover:underline"
             >
               TailwindCSS.
@@ -91,6 +93,7 @@ export function Footer() {
             {` Hosted on  `}
             <Link
               href="https://vercel.com/"
+              target="_blank"
               className="hover:underline text-fun-pink"
             >
               Vercel.
