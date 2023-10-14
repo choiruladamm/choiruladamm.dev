@@ -11,7 +11,7 @@ export function ProjectCard({ project }) {
       key={project.id}
       className="flex flex-col max-w-sm mx-auto projects-center md:projects-start md:justify-center"
     >
-      <a
+      <Link
         href={project.link || project.github}
         target="_blank"
         className="relative w-full p-2 transition border rounded-xl border-fun-gray hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard"
@@ -23,32 +23,32 @@ export function ProjectCard({ project }) {
           alt={project.title}
           className="w-full rounded-md"
         />
-      </a>
+      </Link>
       <div className="w-full mt-5">
         <div className="flex justify-between projects-center">
-          <a href={project.link || project.github}>
+          <Link href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
-          </a>
+          </Link>
           <div className="flex space-x-2">
             {project.link && (
-              <a href={project.link} target="_blank" rel="noreferrer">
+              <Link href={project.link} target="_blank" rel="noreferrer">
                 <Image
                   width={18}
                   height={18}
                   alt="Link Icon"
                   src="/static/icons/external-link.svg"
                 />
-              </a>
+              </Link>
             )}
             {project.github && (
-              <a href={project.github} target="_blank" rel="noreferrer">
+              <Link href={project.github} target="_blank" rel="noreferrer">
                 <Image
                   width={18}
                   height={18}
                   alt="Link Icon"
                   src="/static/icons/github.svg"
                 />
-              </a>
+              </Link>
             )}
           </div>
         </div>
