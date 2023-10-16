@@ -16,7 +16,7 @@ const projects: Projects[] = [
     title: "Auth JWT",
     desc: "Login Register using NextAuth Prisma PostgreSQL (Supabase).",
     img: "/static/projects/auth.png",
-    link: "https://next-auth-chrl.vercel.app//",
+    link: "https://next-auth-chrl.vercel.app/",
     github: "https://github.com/choiruladamm/next-auth-app",
     tags: ["NextJS", "TailwindCSS", "Typescript"],
   },
