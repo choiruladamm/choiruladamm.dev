@@ -60,7 +60,7 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/choirul-adam-6935b3273/",
+          link: "https://www.linkedin.com/in/muhamad-choirul-adam",
           icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true,
         },
