@@ -47,14 +47,6 @@ const projects: Projects[] = [
     tags: ['NextJS', 'TailwindCSS', 'Typescript'],
   },
   {
-    id: 2,
-    title: 'Game Store',
-    desc: 'React shopping chart using typescript & rawg game api.',
-    img: '/static/projects/game-store.jpg',
-    link: 'https://game-shopping-cart.vercel.app/',
-    tags: ['React', 'Sass', 'Typescript', 'API'],
-  },
-  {
     id: 3,
     title: 'Todo List',
     desc: 'Simple todo-list create using typescript and react hot toast.',
